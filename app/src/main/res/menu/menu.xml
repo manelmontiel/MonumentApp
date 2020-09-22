@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"><![CDATA[
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    ]]>
+    <item
+        android:id="@+id/btnMenuMaps"
+        android:icon="@drawable/mando"
+        android:title="JUGAR"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/todos"
+        app:showAsAction="never"
+        android:title="Todos" />
+    <item
+        android:id="@+id/europa"
+        android:title="Europa"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/america"
+        android:title="America"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/asia"
+        android:title="Asia"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/africa"
+        android:title="Africa"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/oceania"
+        android:title="Oceania" />
+</menu>
